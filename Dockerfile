@@ -1,4 +1,4 @@
-FROM php:8.3-fpm-alpine
+FROM php:8.4-fpm-alpine
 
 # 1. Տեղադրում ենք համակարգային անհրաժեշտ գործիքները Linux-ում
 RUN apk update && apk add --no-cache curl libpng-dev libxml2-dev libzip-dev zip unzip git
